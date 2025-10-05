@@ -18,6 +18,7 @@
 // Call necessary modules/libraries via header files here
 
 #include <stdint.h>
+#include <stdbool.h>
 
 // Call component specific program modules
 // Relevant modules are called in .c file
@@ -46,5 +47,9 @@ uint32_t setShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_setVal, uint
 	@brief 
 */
 uint32_t clearShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_clearVal, uint8_t u8_shiftLeftAmt);
+
+uint32_t togglShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_togglVal, uint8_t u8_shiftLeftAmt);
+
+bool chkBitShiftRightValUint32(uint32_t u32_inVal, uint32_t u32_chkBitShiftdVal, uint8_t u8_shiftRightAmt);
 
 #endif
