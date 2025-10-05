@@ -12,12 +12,12 @@
  *  
 */
 
-#ifndef INCLUDES_DGAC_C_LIB_DATA-TYPES_MOD_BINARY-BITWISE-OPS_GEN_GEN_H_
-#define INCLUDES_DGAC_C_LIB_DATA-TYPES_MOD_BINARY-BITWISE-OPS_GEN_GEN_H_
+#ifndef INCLUDES_DGAC_C_LIB_DATA_TYPES_MOD_BINARY_BITWISE_OPS_GEN_GEN_H_
+#define INCLUDES_DGAC_C_LIB_DATA_TYPES_MOD_BINARY_BITWISE_OPS_GEN_GEN_H_
 
 // Call necessary modules/libraries via header files here
 
-#include <cstdint>
+#include <stdint.h>
 
 // Call component specific program modules
 // Relevant modules are called in .c file

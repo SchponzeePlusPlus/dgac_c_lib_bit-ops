@@ -5,7 +5,7 @@
  * 
  */
 
-#include <cstdint>
+#include <stdint.h>
 
 #include "dgac_c_lib_data-types_mod_binary-bitwise-ops_gen_gen.h"
 
