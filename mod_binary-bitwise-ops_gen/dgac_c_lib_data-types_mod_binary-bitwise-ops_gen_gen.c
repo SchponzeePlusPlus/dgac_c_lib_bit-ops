@@ -1,6 +1,13 @@
-/*
- *
+/* 
+ * mod_binary-bitwise-ops_gen\dgac_c_lib_data-types_mod_binary-bitwise-ops_gen_gen.c
+ * 
+ * Author:
+ * 
  */
+
+#include <cstdint>
+
+#include "dgac_c_lib_data-types_mod_binary-bitwise-ops_gen_gen.h"
 
 uint32_t setShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_setVal, uint8_t u8_shiftLeftAmt)
 {
