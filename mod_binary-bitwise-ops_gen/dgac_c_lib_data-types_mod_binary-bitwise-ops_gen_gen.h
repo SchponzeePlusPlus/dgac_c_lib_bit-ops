@@ -31,7 +31,6 @@
 
 // Declare enumerators
 
-
 // Declare a global constant
 
 // Define records or structs
@@ -51,5 +50,7 @@ uint32_t clearShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_clearVal, 
 uint32_t togglShiftLeftIntoValUint32(uint32_t u32_inVal, uint32_t u32_togglVal, uint8_t u8_shiftLeftAmt);
 
 bool chkBitShiftRightValUint32(uint32_t u32_inVal, uint32_t u32_chkBitShiftdVal, uint8_t u8_shiftRightAmt);
+
+uint32_t bit_set_to(uint32_t number, uint32_t n, bool x);
 
 #endif
